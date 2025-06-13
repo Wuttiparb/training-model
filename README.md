@@ -7,7 +7,7 @@
 $ .create venv -> python -m venv venv
 & .\venv\Scripts\activate
 & .pip install requirements.txt
-& pip install torchvision --force-reinstall --upgrade --extra-index-url https://download.pytorch.org/whl/cu118
+& pip install torchvision --force-reinstall --upgrade --extra-index-url https://download.pytorch.org/whl/cu128
 ```
 
 - IF terminal has execute resume train:
