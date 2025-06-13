@@ -20,6 +20,7 @@ def main():
         epochs=300,
         imgsz=640,
         plots=True,
+        resume=True,  # Add this line to resume training
         device=0  # 0 for first GPU, 1 for second, 'cpu' for CPU
     )
 def runtime():
