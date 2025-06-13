@@ -1,6 +1,12 @@
 # training model
+- train YOLOv11 on custom datasets for detecting and tracking single or multiple cassette boxes in production
 
-& 1.create venv -> python -m venv venv
-& 2.terminal -> . .\venv\Scripts\Activate
-& 3.pip install requirements.txt
-& 4.pip install torchvision --force-reinstall --upgrade --extra-index-url https://download.pytorch.org/whl/cu118
+###  :electric_plug: Installation
+- I use virtual environment for this project or you can use conda environment
+```
+$ .create venv -> python -m venv venv
+& .\venv\Scripts\activate
+& .pip install requirements.txt
+& pip install torchvision --force-reinstall --upgrade --extra-index-url https://download.pytorch.org/whl/cu118
+```
+
