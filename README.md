@@ -10,7 +10,7 @@ $ .create venv -> python -m venv venv
 & pip install torchvision --force-reinstall --upgrade --extra-index-url https://download.pytorch.org/whl/cu128
 ```
 
-- IF terminal has execute resume train:
+- IF terminal has execute, to resume train:
 ```
 & change Model = YOLO('last.pt\Path') 
 
